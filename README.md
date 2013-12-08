@@ -7,19 +7,19 @@ Directions on [installing Node.js](https://github.com/joyent/node/wiki/installat
 
 
 
-# Required node libaries/packages
+###Required node libaries/packages
 
 
-####Node.js [*serialport library*](https://npmjs.org/package/serialport)
+#####Node.js [*serialport library*](https://npmjs.org/package/serialport)
   ```$ npm install serialport```
   
   
-####Javascript Arduino framework [*Johnny-Five*](https://github.com/rwaldron/johnny-five#setup-and-assemble-arduino)
+#####Javascript Arduino framework [*Johnny-Five*](https://github.com/rwaldron/johnny-five#setup-and-assemble-arduino)
  ``` $ npm install johnny-five```
 
 
 
-#Code
+###Code
 *Javascript(html reference) - brain.js*: Changed pin numbers in the [example by divanvisagie](https://gist.github.com/divanvisagie/4702867) from pin 13 to pin 8
 ```
 var five = require( 'johnny-five' ),
