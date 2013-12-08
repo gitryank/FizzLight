@@ -1,13 +1,14 @@
 FizzLight
 =========
 
-Presenduino
+#Presenduino
 ---------------------
+
 Directions on [installing Node.js](https://github.com/joyent/node/wiki/installation). 
 
 
 
-###Required node libaries/packages
+###Required node libaries/packages:
 
 
 #####Node.js [*serialport library*](https://npmjs.org/package/serialport)
@@ -19,8 +20,11 @@ Directions on [installing Node.js](https://github.com/joyent/node/wiki/installat
 
 
 
-###Code
-*Javascript(html reference) - brain.js*: Changed pin numbers in the [example by divanvisagie](https://gist.github.com/divanvisagie/4702867) from pin 13 to pin 8
+###Code:
+
+#####*Javascript(html reference) - brain.js*: Changed pin numbers in the [example by divanvisagie](https://gist.github.com/divanvisagie/4702867) from pin 13 to pin 8
+
+
 ```
 var five = require( 'johnny-five' ),
 board,
@@ -74,7 +78,10 @@ path : __dirname + '/'
 } );
 ```
 
-*Javascript(Node) - LED_Server.js* 
+
+
+
+#####*Javascript(Node) - LED_Server.js* 
 
 Inside the pomo() function, added a get request after the timerstop() function:
 ```
