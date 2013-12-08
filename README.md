@@ -11,11 +11,11 @@ Directions on [installing Node.js](https://github.com/joyent/node/wiki/installat
 
 
 ####Node.js [*serialport library*](https://npmjs.org/package/serialport)
-  $ npm install serialport
+  ```$ npm install serialport```
   
   
 ####Javascript Arduino framework [*Johnny-Five*](https://github.com/rwaldron/johnny-five#setup-and-assemble-arduino)
-  $ npm install johnny-five
+ ``` $ npm install johnny-five```
 
 
 
