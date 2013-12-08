@@ -22,7 +22,7 @@ Directions on [installing Node.js](https://github.com/joyent/node/wiki/installat
 
 ###Code:
 
-#####*Javascript(html reference) - brain.js*: Changed pin numbers in the [example by divanvisagie](https://gist.github.com/divanvisagie/4702867) from pin 13 to pin 8
+#####*html reference - brain.js*: Changed pin numbers in the [example by divanvisagie](https://gist.github.com/divanvisagie/4702867) from pin 13 to pin 8
 
 
 ```
@@ -81,7 +81,7 @@ path : __dirname + '/'
 
 
 
-#####*Javascript(Node) - LED_Server.js* 
+#####*Node server - LED_Server.js* 
 
 Inside the pomo() function, added a get request after the timerstop() function:
 ```
